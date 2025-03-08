@@ -6,12 +6,12 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 08:14:17 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 12:12:04 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 13:11:13 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
- * @file ft_string_functions.h
+ * @file string_utils.h
  * @brief Collection of functions for manipulating strings.
  * 
  * This header file contains a set of utility functions designed to perform 

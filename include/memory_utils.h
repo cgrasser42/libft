@@ -6,12 +6,12 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 10:46:54 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 12:11:30 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 13:11:04 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
- * @file ft_memory_functions.h
+ * @file memory_utils.h
  * @brief Collection of memory manipulation functions.
  * 
  * This header file contains a set of utility functions to perform various
