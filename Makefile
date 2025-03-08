@@ -6,7 +6,7 @@
 #    By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/08 08:14:23 by cgrasser          #+#    #+#              #
-#    Updated: 2025/03/08 15:21:28 by cgrasser         ###   ########.fr        #
+#    Updated: 2025/03/08 15:56:04 by cgrasser         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,10 +24,13 @@ SRC_MEMORY_UTILS = ft_bzero.c ft_calloc.c ft_memchr.c ft_memcmp.c \
 SRC_GNL = get_next_line.c ft_clear_fd.c
 SRC_OUTPUT = ft_putchar_fd.c ft_putendl_fd.c ft_putnbr_base_fd.c ft_putnbr_fd.c ft_putstr_fd.c
 SRC_CONV = ft_atoi.c ft_atoi_base.c ft_itoa.c
+SRC_CHARACTER = ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_isspace.c \
+	ft_tolower.c ft_toupper.c
 	
 SRC += $(SRC_LINKED_LIST:%=linked_list/%) $(SRC_STRING_UTILS:%=string_utils/%) \
 	$(SRC_MEMORY_UTILS:%=memory_utils/%) $(SRC_GNL:%=get_next_line/%) \
-	$(SRC_OUTPUT:%=output_utils/%) $(SRC_CONV:%=conversions_utils/%)
+	$(SRC_OUTPUT:%=output_utils/%) $(SRC_CONV:%=conversion_utils/%) \
+	$(SRC_CHARACTER:%=character_utils/%)
 
 OBJ = $(SRC:%.c=obj/%.o)
 

@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 12:28:00 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 13:12:38 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 15:57:28 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,4 +84,4 @@ void	ft_putnbr_fd(int n, int fd);
  */
 void	ft_putnbr_base_fd(long long nb, char *base, int fd);
 
-#endif
+#endif /* OUTPUT_UTILS_H */

@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 10:46:54 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 13:11:04 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 15:57:14 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -126,4 +126,4 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n);
  */
 void	*ft_calloc(size_t nmemb, size_t size);
 
-#endif
+#endif /* MEMORY_UTILS_H */

@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 11:59:57 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 12:21:00 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 15:56:41 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,4 +73,4 @@ char	*get_next_line(int fd);
  */
 void	ft_clear_fd(int fd);
 
-#endif
+#endif /* GET_NEXT_LINE_H */

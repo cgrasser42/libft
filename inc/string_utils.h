@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 08:14:17 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 13:11:13 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 15:40:22 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -355,4 +355,4 @@ char	*ft_strtrim(char const *s1, char const *set);
  */
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 
-#endif
+#endif /* STRING_UTILS_H */

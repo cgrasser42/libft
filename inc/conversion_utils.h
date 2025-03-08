@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   conversions_utils.h                                :+:      :+:    :+:   */
+/*   conversion_utils.h                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 14:50:53 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 15:20:16 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 15:53:13 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@
  * and itoa functions.
  */
 
-#ifndef CONVERSIONS_UTILS_H
-# define CONVERSIONS_UTILS_H
+#ifndef CONVERSION_UTILS_H
+# define CONVERSION_UTILS_H
 
 /**
  * @brief Converts a string to an integer based on the given base.
