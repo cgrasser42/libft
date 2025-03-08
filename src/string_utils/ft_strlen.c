@@ -1,22 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/07 17:28:48 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 08:51:04 by cgrasser         ###   ########.fr       */
+/*   Created: 2025/03/08 08:17:03 by cgrasser          #+#    #+#             */
+/*   Updated: 2025/03/08 08:25:59 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-# include <stdlib.h>
-# include <unistd.h>
+size_t	ft_strlen(const char *s)
+{
+	size_t	i;
 
-# include "linked_list.h"
-# include "string_utils.h"
-
-#endif
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
+}

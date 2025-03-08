@@ -1,22 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/07 17:28:48 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 08:51:04 by cgrasser         ###   ########.fr       */
+/*   Created: 2025/03/08 08:33:07 by cgrasser          #+#    #+#             */
+/*   Updated: 2025/03/08 08:33:23 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-# include <stdlib.h>
-# include <unistd.h>
+char	*ft_strdup(const char *s)
+{
+	char	*to_return;
+	size_t	size;
 
-# include "linked_list.h"
-# include "string_utils.h"
-
-#endif
+	size = ft_strlen(s);
+	to_return = ft_calloc(size + 1, sizeof(char));
+	if (!to_return)
+		return (NULL);
+	ft_memcpy(to_return, s, size);
+	return (to_return);
+}

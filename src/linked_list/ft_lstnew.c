@@ -1,22 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/07 17:28:48 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 08:51:04 by cgrasser         ###   ########.fr       */
+/*   Created: 2025/03/07 17:27:59 by cgrasser          #+#    #+#             */
+/*   Updated: 2025/03/08 08:17:15 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-# include <stdlib.h>
-# include <unistd.h>
+t_list	*ft_lstnew(void *content)
+{
+	t_list	*elm;
 
-# include "linked_list.h"
-# include "string_utils.h"
-
-#endif
+	elm = (t_list *)malloc(sizeof(t_list));
+	if (!elm)
+		return (NULL);
+	elm->content = content;
+	elm->next = NULL;
+	return (elm);
+}

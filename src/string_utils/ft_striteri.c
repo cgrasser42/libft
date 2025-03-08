@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_listnew.c                                       :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/07 17:27:59 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/07 18:33:48 by cgrasser         ###   ########.fr       */
+/*   Created: 2025/03/08 08:42:45 by cgrasser          #+#    #+#             */
+/*   Updated: 2025/03/08 08:43:02 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list	*ft_lstnew(void *content)
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
-	t_list	*elm;
+	unsigned int	i;
 
-	elm = (t_list *)malloc(sizeof(t_list));
-	if (!elm)
-		return (NULL);
-	elm->content = content;
-	elm->next = NULL;
-	return (elm);
+	i = 0;
+	while (s[i])
+	{
+		f(i, &s[i]);
+		i++;
+	}
 }
