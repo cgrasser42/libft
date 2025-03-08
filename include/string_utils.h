@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 08:14:17 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 09:52:09 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 10:54:31 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,6 +87,18 @@ int		ft_strcmp(const char *s1, const char *s2);
  * 			the delimiters in `char_set`.
  */
 int		ft_strcount(const char *str, char *char_set);
+
+/**
+ * @brief Copies a null-terminated string to another string.
+ * 
+ * This function copies the string `src` (including the null terminator) to the memory location pointed to by `dest`. 
+ * It assumes that the `dest` array has enough space to hold the contents of `src`. The function returns the `dest` pointer.
+ * 
+ * @param dest A pointer to the destination memory location where the string is copied.
+ * @param src A pointer to the source null-terminated string.
+ * @return A pointer to the destination string `dest`.
+ */
+char	*ft_strcpy(char *dest, const char *src);
 
 /**
  * @brief Duplicates a string by allocating memory and copying the content.
