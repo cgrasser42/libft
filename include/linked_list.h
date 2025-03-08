@@ -6,9 +6,18 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/07 17:01:10 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/07 18:38:34 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 12:13:13 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/**
+ * @file linked_list.h
+ * @brief Header file for the linked list operations.
+ *
+ * This file defines the structure and function prototypes for working with
+ * a singly linked list. It includes operations to create, add, remove, and
+ * manipulate elements in the list.
+ */
 
 #ifndef LINKED_LIST_H
 # define LINKED_LIST_H

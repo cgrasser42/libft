@@ -1,24 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_clear_fd.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/07 17:28:48 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 11:59:27 by cgrasser         ###   ########.fr       */
+/*   Created: 2025/03/08 12:05:30 by cgrasser          #+#    #+#             */
+/*   Updated: 2025/03/08 12:17:29 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-# include <stdlib.h>
-# include <unistd.h>
+void	ft_clear_fd(int fd)
+{
+	char	*line;
 
-# include "linked_list.h"
-# include "string_utils.h"
-# include "memory_utils.h"
-# include "get_next_line.h"
-
-#endif
+	if (fd < 0)
+		return ;
+	line = get_next_line(fd);
+	while (line)
+	{
+		free(line);
+		line = get_next_line(fd);
+	}
+	close(fd);
+}

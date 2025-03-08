@@ -6,14 +6,9 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 10:46:54 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 10:51:32 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/03/08 12:11:30 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#ifndef MEMORY_UTILS_H
-# define MEMORY_UTILS_H
-
-# include "libft.h"
 
 /**
  * @file ft_memory_functions.h
@@ -25,6 +20,11 @@
  * They are designed to work with raw memory buffers and facilitate efficient
  * memory handling in C.
  */
+
+#ifndef MEMORY_UTILS_H
+# define MEMORY_UTILS_H
+
+# include "libft.h"
 
 /**
  * @brief Fills a block of memory with a specific value.
