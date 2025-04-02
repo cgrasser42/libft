@@ -6,7 +6,7 @@
 #    By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/08 08:14:23 by cgrasser          #+#    #+#              #
-#    Updated: 2025/03/08 15:56:04 by cgrasser         ###   ########.fr        #
+#    Updated: 2025/04/02 21:59:42 by cgrasser         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,7 @@ $(NAME): $(OBJ)
 obj/%.o: src/%.c
 	echo "$(NAME) \e[90m➤\e[0m \e[32mCompiling\e[0m \e[36m$<\e[0m"
 	mkdir -p $(dir $@)
-	$(CC) -c $< -o $@ -I . -I ./inc
+	$(CC) -c $< -o $@ -I . -I inc
 
 clean:
 	echo "$(NAME) \e[90m➤\e[0m \e[31mCleaning\e[0m object files"

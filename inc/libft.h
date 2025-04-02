@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/07 17:28:48 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 16:06:19 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/04/02 22:00:50 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@
 # include <stdbool.h>     /**< Provides the bool type. */
 
 /**< Functions and structures for working with linked lists. */
-# include "linked_list.h" 
+# include "linked_list.h"
 
 /**< Functions for string manipulation. */
 # include "string_utils.h"
