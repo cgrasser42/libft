@@ -41,6 +41,7 @@
 # include <unistd.h>      /**< Standard library for system calls. */
 # include <limits.h>      /**< Provides constants for integer limits. */
 # include <stdbool.h>     /**< Provides the bool type. */
+# include <stdio.h>
 
 /**< Functions and structures for working with linked lists. */
 # include "linked_list.h"
