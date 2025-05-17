@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 15:25:05 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 15:52:27 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/05/17 06:46:30 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,30 @@ bool	ft_isalpha(int c);
  * @return True if the character is a digit, false otherwise.
  */
 bool	ft_isdigit(int c);
+
+/**
+ * @brief Checks if a character is a hexadecimal letter (a-f).
+ *
+ * This function returns true if the character `c` is a valid
+ * hexadecimal letter (uppercase or lowercase).
+ *
+ * @param c The character to be checked.
+ *
+ * @return True if the character is a hexadecimal letter, false otherwise.
+ */
+bool	ft_ishexa_lower(int c);
+
+/**
+ * @brief Checks if a character is a hexadecimal letter (A-F).
+ *
+ * This function returns true if the character `c` is a valid
+ * hexadecimal letter (uppercase or lowercase).
+ *
+ * @param c The character to be checked.
+ *
+ * @return True if the character is a hexadecimal letter, false otherwise.
+ */
+bool	ft_ishexa_upper(int c);
 
 /**
  * @brief Checks if a character is alphanumeric (A-Z, a-z, 0-9).
