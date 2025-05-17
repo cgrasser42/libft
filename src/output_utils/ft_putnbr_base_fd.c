@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 12:35:25 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 13:13:00 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/05/17 06:49:51 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	ft_putnbr_base_fd(long long nb, char *base, int fd)
 {
 	int	base_len;
 
-	if (nb != LLONG_MIN)
+	if (nb == LLONG_MIN)
 		ft_putstr_fd("-9223372036854775808", fd);
 	else
 	{
