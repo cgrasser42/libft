@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/07 17:28:48 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/04/02 22:00:50 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/06/24 00:00:26 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,21 +47,21 @@
 # include "linked_list.h"
 
 /**< Functions for string manipulation. */
-# include "string_utils.h"
+# include "string.h"
 
 /**< Functions for memory management. */
-# include "memory_utils.h"
+# include "memory.h"
 
 /**< Function for reading a line from a file or input stream. */
 # include "get_next_line.h"
 
 /**< Functions for output operations. */
-# include "output_utils.h"
+# include "output.h"
 
 /**< Functions for converting numbers and strings in different bases. */
-# include "conversion_utils.h"
+# include "conversion.h"
 
 /**< Functions for character checking and manipulation. */
-# include "character_utils.h"  
+# include "character.h"  
 
 #endif /* LIBFT_H */

@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   memory_utils.h                                     :+:      :+:    :+:   */
+/*   memory.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 10:46:54 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 15:57:14 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/06/24 00:02:16 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
- * @file memory_utils.h
+ * @file memory.h
  * @brief Collection of memory manipulation functions.
  * 
  * This header file contains a set of utility functions to perform various
@@ -21,8 +21,8 @@
  * memory handling in C.
  */
 
-#ifndef MEMORY_UTILS_H
-# define MEMORY_UTILS_H
+#ifndef MEMORY_H
+# define MEMORY_H
 
 # include "libft.h"
 
@@ -126,4 +126,4 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n);
  */
 void	*ft_calloc(size_t nmemb, size_t size);
 
-#endif /* MEMORY_UTILS_H */
+#endif /* MEMORY_H */

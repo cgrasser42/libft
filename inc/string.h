@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   string_utils.h                                     :+:      :+:    :+:   */
+/*   string.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 08:14:17 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 15:40:22 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/06/24 00:01:45 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
- * @file string_utils.h
+ * @file string.h
  * @brief Collection of functions for manipulating strings.
  * 
  * This header file contains a set of utility functions designed to perform 
@@ -21,8 +21,8 @@
  * set of tools for working with strings in C. 
  */
 
-#ifndef STRING_UTILS_H
-# define STRING_UTILS_H
+#ifndef STRING_H
+# define STRING_H
 
 # include "libft.h"
 
@@ -355,4 +355,4 @@ char	*ft_strtrim(char const *s1, char const *set);
  */
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 
-#endif /* STRING_UTILS_H */
+#endif /* STRING_H */

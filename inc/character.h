@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   character_utils.h                                  :+:      :+:    :+:   */
+/*   character.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 15:25:05 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/05/17 06:46:30 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/06/23 23:59:32 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
- * @file character_utils.h
+ * @file character.h
  * @brief Header file providing utility functions for character manipulation.
  *
  * This file contains the declarations of functions that are used for checking
@@ -19,8 +19,8 @@
  * as well as converting characters to uppercase or lowercase.
  */
 
-#ifndef CHARACTER_UTILS_H
-# define CHARACTER_UTILS_H
+#ifndef CHARACTER_H
+# define CHARACTER_H
 
 /**
  * @brief Checks if a character is an alphabetic letter (A-Z or a-z).
@@ -147,4 +147,4 @@ int		ft_toupper(int c);
  */
 int		ft_tolower(int c);
 
-#endif /* CHARACTER_UTILS_H */
+#endif /* CHARACTER_H */

@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   conversion_utils.h                                 :+:      :+:    :+:   */
+/*   conversion.h                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 14:50:53 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 15:53:13 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/06/24 00:02:44 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
- * @file conversions_utils.h
+ * @file conversion.h
  * @brief Header file providing utility functions for conversions between
  * different bases and integer parsing.
  *
@@ -20,8 +20,8 @@
  * and itoa functions.
  */
 
-#ifndef CONVERSION_UTILS_H
-# define CONVERSION_UTILS_H
+#ifndef CONVERSION_H
+# define CONVERSION_H
 
 /**
  * @brief Converts a string to an integer based on the given base.
@@ -71,4 +71,4 @@ int		ft_atoi(const char *str);
  */
 char	*ft_itoa(int n);
 
-#endif /* CONVERSIONS_UTILS_H */
+#endif /* CONVERSIONS_H */

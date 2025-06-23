@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   output_utils.h                                     :+:      :+:    :+:   */
+/*   output.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 12:28:00 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 15:57:28 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/06/24 00:02:01 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /**
- * @file output_utils.h
+ * @file output.h
  * @brief Header file containing utility functions for output operations.
  *
  * This file includes functions for writing characters, strings, numbers, and
  * numbers in custom bases to a specified file descriptor.
  */
 
-#ifndef OUTPUT_UTILS_H
-# define OUTPUT_UTILS_H
+#ifndef OUTPUT_H
+# define OUTPUT_H
 
 /**
  * @brief Outputs a single character to the specified file descriptor.
@@ -84,4 +84,4 @@ void	ft_putnbr_fd(int n, int fd);
  */
 void	ft_putnbr_base_fd(long long nb, char *base, int fd);
 
-#endif /* OUTPUT_UTILS_H */
+#endif /* OUTPUT_H */
