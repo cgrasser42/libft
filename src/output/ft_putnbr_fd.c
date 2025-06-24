@@ -6,13 +6,13 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 12:49:30 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 12:51:21 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/06/24 00:23:30 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n, int fd)
+int	ft_putnbr_fd(int n, int fd)
 {
 	return (ft_putnbr_base_fd((long long)n, "0123456789", fd));
 }

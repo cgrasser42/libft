@@ -6,7 +6,7 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/07 17:28:48 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/06/24 00:00:26 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/06/24 02:13:01 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@
 # include <limits.h>      /**< Provides constants for integer limits. */
 # include <stdbool.h>     /**< Provides the bool type. */
 # include <stdio.h>
+# include <stdarg.h>
 
 /**< Functions and structures for working with linked lists. */
 # include "linked_list.h"
@@ -62,6 +63,8 @@
 # include "conversion.h"
 
 /**< Functions for character checking and manipulation. */
-# include "character.h"  
+# include "character.h"
+
+# include "printf.h"
 
 #endif /* LIBFT_H */

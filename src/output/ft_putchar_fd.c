@@ -6,14 +6,13 @@
 /*   By: cgrasser <cgrasser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/08 12:30:12 by cgrasser          #+#    #+#             */
-/*   Updated: 2025/03/08 12:31:06 by cgrasser         ###   ########.fr       */
+/*   Updated: 2025/06/24 00:13:45 by cgrasser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putchar_fd(char c, int fd)
+int	ft_putchar_fd(char c, int fd)
 {
-	if (write(fd, &c, 1) == -1)
-		perror("write");
+	return (write(fd, &c, 1));
 }
