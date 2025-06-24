@@ -39,7 +39,7 @@ int main(void)
     char *str;
     
     str = "Hello, World!";
-    ft_printf(1, "%s", str);
+    ft_printf(1, "%s\n", str);
     return (0);
 }
 ```
@@ -84,7 +84,7 @@ INCLUDES = -I libft/inc
 SRCS = main.c
 OBJS = $(SRCS:.c=.o)
 
-CC = gcc
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 $(NAME): $(OBJS) $(LIBFT)
